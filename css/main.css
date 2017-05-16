@@ -1,0 +1,66 @@
+#home_scroll{
+  position: absolute;
+	z-index: 1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+}
+.input_email{
+  border:0;
+  border-bottom:1px solid #a5a5a5
+}
+.modal-content{
+  border-radius:0;
+  opacity:0.9;
+  background:#fff;
+  margin-left:-15px;
+  z-index: 99999
+}
+.modal-dialog {
+  position: fixed;
+  top: 30%;
+  left:49.5%;
+  display: none;
+  transform: translate(-50%);
+  z-index: 9999;
+}
+.modal-header{
+  border-bottom:0
+}
+.modal-content p{
+  text-align: center;
+  width:200px;
+  margin:10px auto
+}
+.img_center{
+  margin-left:52.5%;
+  transform:translateX(-50%);
+  padding-left:0
+}
+.img_center_{
+  margin-left:51%;
+  transform:translateX(-50%);
+  padding-left:0
+}
+#submit{
+  padding:5px 18px
+}
+.scroll_child{
+  padding-bottom:50px;
+}
+.fix_bottom{
+  position:absolute;
+  bottom:0;
+  z-index:999
+}
+.btn-primary{
+  padding:10px
+}
+.cli_span{
+  display: inline-block;
+  height:10px;
+  width:10px;
+  background:red
+}

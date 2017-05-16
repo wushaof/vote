@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>2017童办绘本大赏投票</title>
+        <meta charset="UTF-8">
+        <meta content="童办, 绘本, 绘本大赏, 投票" name="keywords">
+        <meta name="description" content="2017童办绘本大赏">
+        <meta name="viewport" content="width=device-width height=device-height user-scalable=no initial-scale=1">
+        <link rel="shortcut icon" href="imgs/favicon.png">
+        <link href="./css/tools/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/tongbanVote.css" />
+        <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    </head>
+
+    <body>
+
+            <div class="modal-dialog col-xs-4 col-md-4 col-sm-4 vote_success" style='height:100px;padding-top: 0;'>
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <div style='height:100px;padding-top: 0;line-height: 30px;font-size:16px;'>
+                      <p class="modal-title">您的投票已成功</p>
+                      <p>童办感谢您的支持</p>
+                    </div>
+                    <div class="row">
+                      <div class="span12">
+                        <div class="row">
+                          <div class="col-xs-4 col-md-4 col-sm-4 img_center">
+                            <div class="vote-image vo_img">
+                              <img class='success_' src="../imgs/ok.png" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="modal-dialog email_">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <div style='height:100px;padding-top: 0;line-height: 30px;font-size:16px;'>
+                        <p class="modal-title">请输入常用邮箱 ！</p>
+                        <p><input type="text" class='input_email'></p>
+                      </div>
+                      <div class="row">
+                        <div class="span12">
+                          <div class="row">
+                            <div class="col-xs-4 col-md-4 col-sm-4 img_center_">
+                              <div class="vote-image">
+                                <button type="button" id="submit" data-complete-text="finished!" class="btn btn-primary" autocomplete="off">
+                                  确认提交
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-dialog warn_vote">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <div style='height:100px;padding-top: 0;line-height: 30px;font-size:16px;'>
+                          <p class="modal-title">您之前登录过的邮箱已经投过票</p>
+                          <p>请勿重复投票，谢谢</p>
+                        </div>
+                        <div class="row">
+                          <div class="span12">
+                            <div class="row">
+                              <div class="col-xs-4 col-md-4 col-sm-4 img_center">
+                                <div class="vote-image vo_img">
+                                  <img class='success_' src="../imgs/warn.png" alt="">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+        <div class="container-fluid" id="home_scroll">
+          <div class='scroll_child'>
+
+            <div class="row">
+              <div class="span12">
+                <div class="logo">
+                  <img src="imgs/logo.png" />
+                </div>
+                <div class="title">
+                  Parents Choice
+                </div>
+                <div class="intro">
+                  童办一直想要设立一个由中国万千父母评选出来的绘本大奖，现有的很多国外大奖植根于国外文化，虽然绘本在艺术性、想象力上是共通的，但文化的差异使得不少获奖绘本难以引起共鸣，童办绘本大奖是在专家意见的基础上由中国的父母选出每年度的金奖银奖，最大程度地体现绘本的直接受众——中国父母和孩子的喜好，同时也是希望借此促进国内原创绘本的创作，给新生代父母提供参考与指导。
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span12">
+                <div class="title">
+                  投票方法
+                </div>
+                <div class="row">
+                  <div class="col-xs-4 col-md-4 col-sm-4">
+                    <div class="vote-image">
+                      <img src="imgs/select.png" />
+                    </div>
+                  </div>
+                  <div class="col-xs-4 col-md-4 col-sm-4">
+                    <div class="vote-image">
+                      <img src="imgs/confirm.png" />
+                    </div>
+                  </div>
+                  <div class="col-xs-4 col-md-4 col-sm-4">
+                    <div class="vote-image">
+                      <img src="imgs/email.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span12">
+                <div class="title">
+                  开始投票
+                </div>
+                <div class="notice">
+                  备注：不限绘本投票个数；请勿重复投票
+                </div>
+              </div>
+            </div>
+            <div class="row" id="box">
+
+            </div>
+        </div>
+      </div>
+      <div class="row fix_bottom">
+        <div class="col-xs-12 col-md-12 col-sm-12">
+          <div class="btn-group btn-group-justified" role="group" aria-label="...">
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-primary vote_btn" id='myStateButton'>结束投票请点击</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        <script src="./js/tools/iscroll-probe.js"></script>
+        <script src="./js/tools/jquery.min.js"></script>
+        <script src="./js/tools/bootstrap.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+
+</html>

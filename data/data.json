@@ -1,0 +1,52 @@
+{
+    "count": 22,
+    "next": "http://ec2-54-222-230-45.cn-north-1.compute.amazonaws.com.cn/api/v1/car_service/dealer/25/News/?page=2",
+    "previous": null,
+    "results": {
+        "status": 0,
+        "message": "搜索成功",
+        "data": [
+            {
+                "id": 1,
+                "name": "《约瑟夫有个旧外套》",
+                "author": "作者：西姆斯•塔贝克1",
+                "proface": "千巨万/陈舒等专家提名1",
+                "image":"../imgs/book.png",
+                "published_at": "2016-12-26T05:58:00Z"
+            },
+            {
+                "id": 2,
+                "name": "《约瑟夫有个旧外套》2",
+                "author": "作者：西姆斯•塔贝克2",
+                "proface": "千巨万/陈舒等专家提名2",
+                "image":"../imgs/book.png",
+                "published_at": "2016-12-26T05:58:00Z"
+            },
+            {
+                "id": 3,
+                "name": "《约瑟夫有个旧外套》3",
+                "author": "作者：西姆斯•塔贝克3",
+                "proface": "千巨万/陈舒等专家提名3",
+                "image":"../imgs/book.png",
+                "published_at": "2016-12-26T05:58:00Z"
+            },
+            {
+                "id": 4,
+                "name": "《约瑟夫有个旧外套》4",
+                "author": "作者：西姆斯•塔贝克4",
+                "proface": "千巨万/陈舒等专家提名4",
+                "image":"../imgs/book.png",
+                "published_at": "2016-12-26T05:58:00Z"
+            },
+            {
+                "id": 5,
+                "name": "《约瑟夫有个旧外套》5",
+                "author": "作者：西姆斯•塔贝克5",
+                "proface": "千巨万/陈舒等专家提名5",
+                "image":"../imgs/book.png",
+                "published_at": "2016-12-26T05:58:00Z"
+            }
+
+        ]
+    }
+}
